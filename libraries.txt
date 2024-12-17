@@ -1,0 +1,38 @@
+1. Python (Programming Language):
+You need to install Python itself to run the script. You can download it from python.org. Make sure you're using Python 3.x.
+2. Standard Libraries (Included with Python):
+These libraries are included with Python by default, so you don’t need to install them separately:
+
+tkinter: For the graphical user interface (GUI).
+subprocess: To execute system commands like ping, traceroute, etc.
+socket: For network-related operations (e.g., IP address resolution).
+re: For regular expressions (used for validating domain names).
+platform: For detecting the operating system.
+time: For timestamps and delays.
+ipaddress: For IP address validation.
+3. External Libraries (Need to Install Separately):
+These libraries are not included with Python and will need to be installed using pip (Python's package manager). You’ll need to run the following command to install them.
+
+requests: Used for making HTTP requests (for geolocation, HTTP header retrieval, etc.).
+
+Install: pip install requests
+shodan: For looking up Shodan information (open ports, vulnerabilities).
+
+Install: pip install shodan
+python-whois: To perform WHOIS lookups on domain names.
+
+Install: pip install python-whois
+dnspython: For DNS record retrieval.
+
+Install: pip install dnspython
+pyfiglet: For generating ASCII art text banners (optional).
+
+Install: pip install pyfiglet
+matplotlib: For plotting latency results (optional).
+
+Install: pip install matplotlib
+tkinter: While it’s included with most Python installations, you may need to install it separately on some Linux distributions.
+
+Install on Linux (if needed): sudo apt-get install python3-tk
+
+pip install python-whois

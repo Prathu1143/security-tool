@@ -1,0 +1,4 @@
+Complete List of Packages to Install via pip:
+bash
+Copy code
+pip install requests shodan python-whois dnspython pyfiglet matplotlib
